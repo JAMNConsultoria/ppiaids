@@ -1,0 +1,20 @@
+27/02/2011
+
+IMPLANTAÇÃO DO PAINEL PAULISTA DE INDICADORES DE AIDS
+
+NO SERVIDOR DE BANCO DE DADOS
+A) crie um banco de dados que recebera as tabelas do sistema (sugestao ppiaids, pode ser qq nome)
+B) execute o script de criação de tabelas e seu conteúdo, "Dump_Implantacao_BDPPiaids_27022011.sql".
+C) associe ao BD criado um usuário (login e senha) com permissão de select à suas tabelas.
+
+
+
+NO SERVIDOR DE PÁGINAS
+A) crie a pasta que receberá os arquivos (scripts .php) e descompacte nela o arquivo implantacao_scripts_ppiaids_27022011.zip
+B) edite o arquivo "consmysql.php" na pasta "constants" e insira nele as informações do banco de dados (nome, host, usuario e senha do bd)
+
+
+
+JAMN CONSULTORIA EM INFORMÁTICA LTDA.
+Jasmil A. Oliveira
+(11) 8065-3598

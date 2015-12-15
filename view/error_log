@@ -1,0 +1,14 @@
+[28-Jun-2011 21:40:17] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'jamnc142_ppiaids.tb_eixo' doesn't exist' in /home/jamnc142/public_html/projetos/ppiaids/dao/eixo_dao_class.php:20
+Stack trace:
+#0 /home/jamnc142/public_html/projetos/ppiaids/dao/eixo_dao_class.php(20): PDOStatement->execute()
+#1 /home/jamnc142/public_html/projetos/ppiaids/business/eixo_business_class.php(39): EixoDAO->listEixos()
+#2 /home/jamnc142/public_html/projetos/ppiaids/view/incs/menu.php(4): EixoBusiness->listEixos()
+#3 /home/jamnc142/public_html/projetos/ppiaids/view/index.php(7): include('/home/jamnc142/...')
+#4 {main}
+  thrown in /home/jamnc142/public_html/projetos/ppiaids/dao/eixo_dao_class.php on line 20
+[03-Jul-2011 22:11:46] PHP Warning:  Unexpected character in input:  '' (ASCII=31) state=1 in /home/jamnc142/public_html/projetos/ppiaids/dao/dados_dao_class.php on line 123
+[03-Jul-2011 22:11:46] PHP Parse error:  syntax error, unexpected T_STRING in /home/jamnc142/public_html/projetos/ppiaids/dao/dados_dao_class.php on line 123
+[03-Jul-2011 22:11:58] PHP Warning:  Unexpected character in input:  '' (ASCII=31) state=1 in /home/jamnc142/public_html/projetos/ppiaids/dao/dados_dao_class.php on line 123
+[03-Jul-2011 22:11:58] PHP Parse error:  syntax error, unexpected T_STRING in /home/jamnc142/public_html/projetos/ppiaids/dao/dados_dao_class.php on line 123
+[15-Dec-2015 17:38:56] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/jamnc142/public_html/projetos/ppiaids/dao/eixo_dao_class.php on line 19
+[15-Dec-2015 17:42:51] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/jamnc142/public_html/projetos/ppiaids/dao/eixo_dao_class.php on line 19

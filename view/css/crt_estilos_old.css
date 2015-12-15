@@ -1,0 +1,165 @@
+@charset "UTF-8";
+/* CSS Document */
+html {height: 100%; margin-bottom: 1px; background:#ffffff;}
+body {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;font-size:0.8em; margin:25px; background:#fff  repeat-x; color:#091f30}
+body, ul, form {margin: 0px; padding:0px;}
+
+a {cursor:pointer;}
+
+img {border: 0px;}
+
+body, p, form, select, input, a, table, th, tr, td, div, ul, ol, li, span {font-family: Verdana, Helvetica,Arial,sans-serif;}
+
+div.center {text-align: center;}
+div#wrapper {display:table; min-width: 744px; max-width: 744px; margin-left: auto; margin-right: auto;}
+
+div#cabec {height:74px; border-bottom:2px solid #6168a3;margin:0 auto;}
+
+div#rodape {border-top:2px solid #6168a3; margin-top:10px; padding-top:5px; padding-bottom:5px; width: 744px}
+
+div#menu {float:left; font-size:11px; text-align:left; width:204px;}
+div#menu div.item {background:url(../img/botao.gif) no-repeat; display:block; font-size:11px; font-weight:bold; height:27px; line-height:12px; margin-top:7px; padding-left:33px; padding-right:2px; text-align:left; width: 151px;}
+
+div#menu div.item2 {background:url(../img/botao_2.gif) no-repeat; display:block; font-size:11px; font-weight:bold; height:39px; line-height:12px; margin-top:7px; padding-left:33px; padding-right:2px; text-align:left; width: 151px;}
+
+div#menu div.item3 {background:url(../img/botao_eixo.gif) no-repeat; display:block; font-size:11px; font-weight:bold; height:27px; line-height:12px; margin-top:7px; padding-left:33px; padding-right:2px; text-align:left; width: 151px;}
+
+div#menu div.item3 div {color:#666; padding-top:7px;}
+
+div#eixo1, div#eixo2, div#eixo3 {border:1px dotted #b8b3d1; border-top:none; color:#666666; display:block; font-size:11px; padding:2px; text-align:left; width: 180px;}
+
+div#eixo1 div.eixo_texto, div#eixo2 div.eixo_texto {background:#e2e0ec; color:#6168a3; font-size:11px; font-weight:bold;padding-left:5px; padding-bottom:5px; padding-top:5px; text-align:left;}
+
+div#eixo1 ul, div#eixo2 ul {font-size:11px; list-style:none; margin:0px; padding:0px;}
+
+div#eixo1 li, div#eixo2 li {font-size:11px; list-style:url(../img/seta_li.gif); margin-top:3px; margin-bottom:3px; margin-left:15px; padding:0px; padding-bottom:3px;}
+
+div#eixo1 li a, div#eixo2 li a {color:#666; display:block; text-decoration:none;}
+
+div#eixo1 li a:hover, div#eixo2 li a:hover {color:#999; display:block; text-decoration:underline;}
+
+select.gves {background:#f1f1f6; border:1px solid #6168a3; color:#333; font-size:10px; margin-top:3px; width:160px;}
+
+select.gves2 {background:#f1f1f6; border:1px solid #6168a3; color:#009; font-size:12px;}
+
+div#menu div.fio {border-top:1px dotted #b8b3d1; height:1px;}
+
+div#menu div.item a, div#menu div.item2 a, div#menu div.item3 a {color:#666; display:block; padding-top:7px; text-decoration:none;}
+
+div#menu div.item a:hover, div#menu div.item2 a:hover, div#menu div.item3 a:hover {color:#999; display:block; padding-top:7px; text-decoration:none;}
+
+div#conteudo, div#tabelas_int {border-left:1px solid #ccc; display:table; float:right; font-size:12px; min-height:500px; height:500px; padding-left:20px; text-align:left; width:516px;}
+
+div#conteudo p.tit {border-bottom: 1px dotted #b8b3d1; color:#666; font-size:18px; font-weight:bold; pading-top:0px;margin-top:0px;}
+
+div#conteudo p.textos {color:#333; font-size:12px; line-height:17px; text-align:justify;}
+
+div#conteudo ul.ficha, div#conteudo ul.doc_tec {margin-left:50px;}
+
+div#conteudo ul.ficha li {list-style:url(../img/bullet.gif); padding-top:5px; padding-bottom:5px;}
+
+ div#conteudo ul.doc_tec li {list-style:url(../img/icone.jpg); padding-top:5px; padding-bottom:5px;}
+
+div#conteudo ul.ficha a, div#conteudo ul.doc_tec a {color:#666; text-decoration:none;}
+div#conteudo ul.ficha a:hover, div#conteudo ul.doc_tec a:hover {color:#6168a3; text-decoration:underline;}
+
+div#conteudo a.ana {color:#666; text-decoration:none;}
+
+div#conteudo a.ana:hover {color:#6168a3; text-decoration:underline;}
+
+div#tabelas {display:table; font-size:12px; margin:0 auto; min-height:500px; text-align:left; min-width:500px;}
+
+div#tabelas div.cabec, div#tabelas_int div.cabec {border-bottom: 1px dotted #b8b3d1; display:block; font-size:18px; height:20px; }
+
+div#tabelas div.tit, div#tabelas_int div.tit {color:#666; float:left; font-size:18px; font-weight:bold; width:45%}
+
+div#tabelas div.nav, div#tabelas_int div.nav {float:right; font-size:10px; font-weight:bold; padding-top:5px; text-align:right; width:45%}
+
+div#tabelas td.nav, div#tabelas_int dtd.nav {font-size:10px; font-weight:bold;  text-align:right; width:45%}
+
+div#tabelas td.nav a, div#tabelas_int td.nav a {background:#ececec; color:#666; border:1px solid #ccc; padding:3px 5px 3px 5px; text-decoration:none;}
+
+div#tabelas td.nav a:hover, div#tabelas_int td.nav a:hover {background:#f0f0f0; color:#b8b3d1; border:1px solid #ccc; padding:3px 5px 3px 5px; text-decoration:none;}
+
+div#tabelas p.textos, div#tabelas_int p.textos {color:#333; font-size:12px; line-height:17px; text-align:justify;}
+
+div#tabelas span.sub01, div#tabelas_int span.sub01 {color:#666; font-size:10px;}
+
+div#tabelas span.sub02, div#tabelas_int span.sub02 {color:#009; font-size:11px; font-weight:bold;}
+
+div#tabelas table.geral, div#tabelas_int table.geral {border:1px solid #ccc; border-collapse:separate; }
+
+div#tabelas table.geral th, div#tabelas_int table.geral th {background:#e9e9e9; border:1px solid #ccc; border-collapse:collapse; color:#990000; font-size:10px; padding:4px;}
+
+div#tabelas table.geral td, div#tabelas_int table.geral td {border:1px solid #ccc; border-collapse: separate; font-size:10px; padding:4px; text-align:right;}
+
+div#tabelas table.geral td.local1, div#tabelas_int table.geral td.local1 {border:1px solid #ccc; border-collapse:separate; font-size:10px; padding:3px; text-align:left;}
+
+div#tabelas table.geral td.local2, div#tabelas_int table.geral td.local2 {border:1px solid #ccc; border-collapse:separate; font-size:10px; padding:3px 3px 3px 8px; text-align:left;}
+
+div#tabelas table.geral td.local3, div#tabelas_int table.geral td.local3 {border:1px solid #ccc; border-collapse:separate; font-size:10px; padding:3px 3px 3px 13px; text-align:left;}
+
+div#tabelas table.geral td.munic, div#tabelas_int table.geral td.munic, div#tabelas_int table.geral td.ind {border:1px solid #ccc; border-collapse:separate; font-size:10px; padding:3px; text-align:left;}
+
+div#tabelas table.geral tr.cor, div#tabelas_int table.geral tr.cor {background:#efefef; border:1px solid #ccc; border-collapse:separate;}
+
+div#tabelas a, div#tabelas_int a {color:#666; text-decoration:none;}
+
+div#tabelas a:hover, div#tabelas_int a:hover {color:999; text-decoration:underline;}
+
+div#tabelas td.sobre_ind, div#tabelas_int td.sobre_ind {padding-left:10px;}
+
+div#tabelas td.sobre_ind p.subtit, div#tabelas_int td.sobre_ind p.subtit {color:#666; font-size:12px; font-weight:bold; text-decoration:underline;}
+
+div#tabelas td.sobre_ind p.texto, div#tabelas_int td.sobre_ind p.texto {color:#666; font-size:12px;}
+
+div#tabelas table.geral td.tit_ind, div#tabelas_int table.geral td.tit_ind {background:#f1f1f6; border:1px solid #ccc; border-collapse:separate; padding:4px; text-align:left;}
+div#tabelas span.sub03, div#tabelas_int span.sub03 {font-size:11px; font-weight:bold; line-height:17px;}
+select.indicador {border:1px solid #6168a3; color:#009; font-size:11px;}
+
+div#tabelas table.rodape, div#tabelas_int table.rodape {border-top:1px dotted #b8b3d1; color:#333; font-size:10px; font-weight:bold; margin-top:5px; padding-top:3px; width:100%}
+div#tabelas table.rodape a.notas, div#tabelas_int table.rodape a.notas  {background:#efefef; color:#666; padding:2px; text-decoration:none;}
+div#tabelas table.rodape a.notas:hover, div#tabelas_int table.rodape a.notas:hover {background:#fff;  color:#999; padding:2px; text-decoration:underline;}
+
+div#indSelected {display:table; width:100%;}
+
+div.tit_pesq_tab {background:#ececec; border:1px solid #ccc; color:#666; font-weight:bold; margin-bottom:2px; padding:3px;}
+div.botoes_pesq_tab {background:#ececec; border:1px solid #ccc; color:#666; font-weight:bold; margin-top:2px; padding:3px; text-align:center;}
+
+div#indSelected select {background:#efefef; border:1px solid #cccccc; color:#666; font-size:11px; width:100%; margin:0px;}
+div#indSelected input {font-size:10px; text-align:center; width:110px;}
+
+div#grupoTit {background:#efeff5; border:1px dotted #b8b3d1; color:#6168a3; font-weight:bold; margin-bottom:2px; padding:2px 2px 4px 1px;}
+div#grupoTit span {background:#6168a3;color:#fff;font-size:10px;padding:3px 7px 3px 7px;}
+div#grupoInd, div#grupoLoc, div#Localidade {border:1px dotted #b8b3d1; font-size:11px; padding:10px; overflow:auto;}
+div#Localidade {margin-top:2px;}
+input#btnEnviar {font-size:11px; font-weight:bold; padding:4px; text-align:center;}
+
+
+div#grupoInd {border:1px dotted #b8b3d1; height: 350px; font-size:11px; padding:10px; overflow:auto;}
+div#Localidade {border:1px dotted #b8b3d1; height: 350px; font-size:11px; padding:10px; overflow:auto;}
+
+
+div.div1 {margin-left:15px;}
+div.div1 table td.item_sel {vertical-align:top;}
+div.div1 div.item_sel {vertical-align:top;}
+
+#bt_fechar {border:1px dotted #8d93c3; background:#b8b3d1; color:#cc0000; float:right; font-size:10px; font-weight:bold; padding:2px 0 2px 0; margin:2px;text-align:center; width:70px;}
+#bt_imprimir {border:1px dotted #8d93c3; background:#b8b3d1; color:#000; float:right; font-size:10px; font-weight:bold; padding:2px 0 2px 0; margin:2px; text-align:center; width:70px;}
+#Ficha_SobreInd {display:table;font-size:12px; left:20px; z-index:99; width:100%;}
+#Ficha_SobreInd table td.tit{background:#dad6e7; border:1px dotted #8d93c3; color:#666; font-weight:bold;}
+#Ficha_SobreInd table td.texto{color:#666; padding-bottom:15px;}
+#sobre_nome {float:left; padding:5px; font-weight:bold; margin-bottom:10px; width:65%}
+
+#gloss {font-size:12px; left:20px; z-index:99;}
+#gloss table td.tit{background:#dad6e7; border:1px dotted #8d93c3; color:#666; font-weight:bold;}
+#gloss table td.texto{color:#666; padding-bottom:15px;}
+
+tr.cor1 {background:#dfdfdf;}
+
+
+
+div#conteudo ul.ficha, div#conteudo ul.ficha_tec {margin-left:30px;}
+div#conteudo ul.ficha_tec li {list-style:none; padding-top:5px; padding-bottom:5px;}
+
+.parceiro {padding: 10px 5px 5px 5px; border: 1px dotted #efefef;width:85%;}
